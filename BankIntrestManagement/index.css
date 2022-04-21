@@ -18,6 +18,9 @@ table, th, tr,td {
       background-color: rgb(132, 247, 213);
       font-size: larger;
   }
+placeholder{
+     text-align: center;
+}
   input{
       padding: 15px;
       background-color: ghostwhite;
