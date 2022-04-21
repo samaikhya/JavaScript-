@@ -1,0 +1,36 @@
+div{
+    background-image: url("https://static-cse.canva.com/blob/572026/removingbackgroundimages_Unsplash.jpeg");
+    padding: 12px;
+    border-radius: 15px;
+}
+table{
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+    width: 700px;
+    height: 500px;
+    margin-top: 15px;
+}
+table, th, tr,td {
+    border: 2px solid black;
+  }
+  td{
+      background-color: rgb(132, 247, 213);
+      font-size: larger;
+  }
+  input{
+      padding: 15px;
+      background-color: ghostwhite;
+  }
+  th{
+      background-color: lightcoral;
+  }
+  button{
+      border-radius: 5px;
+      width: 150px;
+      height: 40px;
+      background-color: orangered;
+      color: white;
+      margin-left: 570px;
+      cursor: pointer;
+  }

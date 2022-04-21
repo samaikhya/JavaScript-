@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+              <th>Account Holder</th>
+              <th>Account Balance</th>
+              <th>Balance After Interest</th>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td><input type="number" id="bank_balance1"></td>
+              <td><input type="number" id="updated_bank_balance1"></td>
+            </tr>
+            <tr>
+              <td>Aditya</td>
+              <td><input type="number" id="bank_balance2"></td>
+              <td><input type="number" id="updated_bank_balance2" ></td>
+            </tr>
+            <tr>
+                <td>Laxmi</td>
+                <td ><input type="number" id="bank_balance3"></td>
+                <td><input type="number" id="updated_bank_balance3" ></td>
+              </tr>
+              <tr>
+                <td>Vijaya</td>
+                <td><input type="number" id="bank_balance4"></td>
+                <td><input type="number" id="updated_bank_balance4"></td>
+              </tr>
+              <tr>
+                <td>Bharath</td>
+                <td><input type="number" id="bank_balance5"></td>
+                <td><input type="number" id="updated_bank_balance5" ></td>
+              </tr>
+          </table>
+          <br>
+          <button onclick="calculateInterest()">Calculate Interest</button>
+           <br>
+           <br>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
